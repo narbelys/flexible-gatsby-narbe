@@ -2,6 +2,7 @@ import { Link } from 'gatsby'
 import React from 'react'
 
 import Logo from './pic.jpg'
+import { kebabCase } from 'lodash'
 
 const Sidebar = ({ siteMetadata }) => (
   <>
@@ -13,13 +14,24 @@ const Sidebar = ({ siteMetadata }) => (
               <img src={Logo} alt={siteMetadata.author} />
             </Link>
           </div>
-          <div className="author-name">{siteMetadata.author}</div>
+          <div className="author-name">Secciones</div>
           <p>{siteMetadata.description}</p>
+          <ul className="menu">
+            {siteMetadata.categories.map((tag) => (
+              <li key={tag}>
+                <Link
+                  to={`/tags/${kebabCase(tag)}/`}
+                >
+                  {tag}
+                </Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </header>
       <footer>
         <section className="contact">
-          <h3 className="contact-title">Contact me</h3>
+          <h3 className="contact-title">Contacto</h3>
           <ul>
             {siteMetadata.social.twitter && (
               <li>

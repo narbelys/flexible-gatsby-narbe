@@ -3,6 +3,7 @@ import { Link, graphql } from 'gatsby'
 
 import DefaultLayout from '../components/layout'
 import SEO from '../components/seo'
+import { kebabCase } from 'lodash'
 
 class BlogIndex extends React.Component {
   render() {
@@ -19,7 +20,7 @@ class BlogIndex extends React.Component {
       <DefaultLayout>
         <SEO
           title={siteTitle}
-          keywords={[`blog`, `gatsby`, `javascript`, `react`]}
+          keywords={[`blog`, `emprendimiento`, `bitcoin`, `diseño`]}
         />
         <div className="content-box clearfix">
           {posts.map(({ node }) => {
@@ -41,6 +42,18 @@ class BlogIndex extends React.Component {
                     <Link to={node.fields.slug}>{node.frontmatter.title}</Link>
                   </h2>
                   <p>{node.excerpt}</p>
+                  <div className="container-tags">
+                    <div className="tag">
+                      {node.frontmatter.tags &&
+                        node.frontmatter.tags.map((tag) => (
+                          <span key={tag}>
+                            <Link className="tag" to={`/tags/${kebabCase(tag)}/`}>
+                              # {tag}
+                            </Link>
+                          </span>
+                        ))}
+                    </div>
+                  </div>
                   <span className="post-date">
                     {node.frontmatter.date}&nbsp;&nbsp;—&nbsp;
                   </span>
@@ -57,19 +70,19 @@ class BlogIndex extends React.Component {
                 {!isFirst && (
                   <p>
                     <Link to={prevPage} rel="prev" className="newer-posts">
-                      ← Previous Page
+                      ← Previo
                     </Link>
                   </p>
                 )}
                 <p>
                   <span className="page-number">
-                    Page {currentPage} of {numPages}
+                    Página {currentPage} de {numPages}
                   </span>
                 </p>
                 {!isLast && (
                   <p>
                     <Link to={nextPage} rel="next" className="older-posts">
-                      Next Page →
+                      Siguiente →
                     </Link>
                   </p>
                 )}
@@ -105,6 +118,7 @@ export const pageQuery = graphql`
           timeToRead
           frontmatter {
             date(formatString: "YYYY, MMM DD")
+            tags
             title
             img {
               childImageSharp {

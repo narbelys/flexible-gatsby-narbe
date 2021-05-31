@@ -90,3 +90,34 @@
     }
   }
 }
+.container-tags {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: $lightgray;
+      border: 1px solid $gray;
+      padding: 5px 10px;
+      margin-left: 5px;
+      color: $dark-blue;
+      font-size: 12px;
+      transition: background-color .3s;
+      &:first-child {
+        margin-left: 0;
+      }
+      &:hover {
+        background-color: $gray;
+      }
+    }
+  .tag {
+    span {
+      text-decoration: none;
+      font-size: 10px;
+      padding-right: 5px;
+      color: $dark-blue;
+    }
+  }
+}

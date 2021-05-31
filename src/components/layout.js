@@ -15,6 +15,7 @@ const DefaultLayout = ({ children }) => (
           siteMetadata {
             author
             description
+            categories
             social {
               twitter
               facebook
