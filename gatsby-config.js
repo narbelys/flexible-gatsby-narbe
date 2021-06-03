@@ -4,7 +4,7 @@ module.exports = {
     description: ``,
     author: `Narbelys Oropeza`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
-    categories: ['Hawaii', 'Software', 'Workflow'],
+    categories: ['Inversiones', 'Programación', 'Autoayuda'],
     social: {
       twitter: ``,
       facebook: ``,
