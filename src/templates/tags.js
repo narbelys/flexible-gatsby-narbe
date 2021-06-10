@@ -36,7 +36,7 @@ const Tags = ({ pageContext, data }) => {
                         {node.frontmatter.date}&nbsp;&nbsp;—&nbsp;
                       </span>
                       <span className="post-words">
-                        {node.timeToRead} minute read
+                        {node.timeToRead} minuto lectura
                       </span>
                     </div>
                   </article>
