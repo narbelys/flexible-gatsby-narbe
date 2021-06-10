@@ -27,6 +27,7 @@ const DefaultLayout = ({ children }) => (
         }
       }
     `}
+    
     render={data => (
       <div className="wrapper">
         <Helmet>
@@ -35,7 +36,7 @@ const DefaultLayout = ({ children }) => (
             rel="stylesheet"
           />
         </Helmet>
-        <Sidebar siteMetadata={data.site.siteMetadata} />
+        <Sidebar siteMetadata={data.site.siteMetadata}/>
         {children}
       </div>
     )}

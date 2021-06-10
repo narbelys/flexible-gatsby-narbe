@@ -14,8 +14,6 @@ const Sidebar = ({ siteMetadata }) => (
               <img src={Logo} alt={siteMetadata.author} />
             </Link>
           </div>
-          <div className="author-name">Secciones</div>
-          <p>{siteMetadata.description}</p>
           <ul className="menu">
             {siteMetadata.categories.map((tag) => (
               <li key={tag}>
