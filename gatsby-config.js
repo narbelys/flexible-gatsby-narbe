@@ -4,7 +4,7 @@ module.exports = {
     description: ``,
     author: `Narbelys Oropeza`,
     siteUrl: `https://github.com/wangonya/flexible-gatsby`,
-    categories: ['Inversiones', 'Programación', 'Autoayuda'],
+    categories: ['Inversiones', 'Programación', 'Reflexión'],
     social: {
       twitter: ``,
       facebook: ``,
@@ -33,6 +33,12 @@ module.exports = {
       options: {
         publisherId: `ca-pub-5928000816606710`
       },
+    },
+    {
+      resolve: `gatsby-plugin-disqus`,
+      options: {
+          shortname: `https-narbelys-com`
+      }
     },
     {
       resolve: `gatsby-transformer-remark`,

@@ -35,6 +35,8 @@ const DefaultLayout = ({ children }) => (
             href="https://fonts.googleapis.com/css?family=Lato|PT+Serif&display=swap"
             rel="stylesheet"
           />
+          <div id="fb-root"></div>
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v11.0&appId=428695450874995&autoLogAppEvents=1" nonce="OHj1yQys"></script>
         </Helmet>
         <Sidebar siteMetadata={data.site.siteMetadata}/>
         {children}

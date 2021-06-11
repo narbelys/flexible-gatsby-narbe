@@ -5,13 +5,18 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 
 import DefaultLayout from '../components/layout'
 import SEO from '../components/seo'
+import { DiscussionEmbed } from 'disqus-react';
 
 import 'katex/dist/katex.min.css'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-
+    const discussionConfig = {
+      identifier: post.id,
+      title: post.frontmatter.title,
+      url: "https://narbelys.com/" + post.frontmatter.slug
+    }
     return (
       <DefaultLayout>
         <SEO title={post.frontmatter.title} description={post.excerpt} />
@@ -53,6 +58,10 @@ class BlogPostTemplate extends React.Component {
                         </span>
                       ))}
                   </div>
+                </div>
+                <div>
+                  <DiscussionEmbed shortname="https-narbelys-com" config={discussionConfig}>
+                  </DiscussionEmbed>
                 </div>
               </div>
             </div>

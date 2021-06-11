@@ -3,7 +3,7 @@ title: 'Me despidieron siendo accionista!'
 date: 2021-06-03 13:32:20 +0300
 description: Así empezó mi mundo en las inversiones, y mi lucha constante por salir del sistema. # Add post description (optional)
 img: ./despido.png
-tags: [Inversiones, Autoayuda] # add tag 
+tags: [Inversiones, Reflexion] # add tag 
 ---
 
 Así empezó mi mundo en las inversiones, y mi lucha constante por salir del sistema. Les voy a contar una historia muy graciosa de mi vida, bueno no se si graciosa pero si curiosa. 
