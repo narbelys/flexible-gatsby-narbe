@@ -14,7 +14,8 @@ const Sidebar = ({ siteMetadata }) => (
               <img src={Logo} alt={siteMetadata.author} />
             </Link>
           </div>
-          <ul className="menu">
+          <h5>"Haciendome las preguntas que nadie más se hace"</h5>
+          {/*<ul className="menu">
             {siteMetadata.categories.map((tag) => (
               <li key={tag}>
                 <Link
@@ -24,7 +25,7 @@ const Sidebar = ({ siteMetadata }) => (
                 </Link>
               </li>
             ))}
-          </ul>
+            </ul>*/}
         </div>
       </header>
       <footer>

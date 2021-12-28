@@ -59,6 +59,17 @@ module.exports = {
               ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
             },
           },
+          {
+            resolve: `gatsby-source-facebook`,
+            options: {
+              places: [`${428695450874995}`], // Can be either a numeric ID or the URL ID
+              params: {
+                fields: 'hours, posts { message, created_time }', // See Facebooks API to see what you can query for
+              },
+              key: process.env.FACEBOOK_GRAPH_TOKEN, // You will need to create a Facebook application and go through review in order to get an API token.
+              version: '12.0', // The version of the graph API to use. Defaults to 5.0
+            },
+          },
           `gatsby-remark-prismjs`,
         ],
       },

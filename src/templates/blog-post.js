@@ -12,6 +12,7 @@ import 'katex/dist/katex.min.css'
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
+    console.log(post)
     const discussionConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
@@ -25,7 +26,7 @@ class BlogPostTemplate extends React.Component {
             <div className="page-content">
               {post.frontmatter.img && (
                 <div className="page-cover-image">
-                  <figure>
+                  {/* <figure>
                     <GatsbyImage
                       image={
                         post.frontmatter.img.childImageSharp.gatsbyImageData
@@ -36,7 +37,7 @@ class BlogPostTemplate extends React.Component {
                       }
                       alt=""
                     />
-                  </figure>
+                  </figure> */}
                 </div>
               )}
               <div className="wrap-content">
@@ -60,8 +61,9 @@ class BlogPostTemplate extends React.Component {
                   </div>
                 </div>
                 <div>
-                  <DiscussionEmbed shortname="https-narbelys-com" config={discussionConfig}>
-                  </DiscussionEmbed>
+                <div class="fb-comments" data-href={`https://narbelys.com/${post.id}/`} data-width="800" data-numposts="5"></div>
+                  {/*<DiscussionEmbed shortname="https-narbelys-com" config={discussionConfig}>
+                  </DiscussionEmbed>*/}
                 </div>
               </div>
             </div>
