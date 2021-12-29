@@ -15,6 +15,7 @@ class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
     const path = this.props.path
+    console.log(this.props)
     const discussionConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
