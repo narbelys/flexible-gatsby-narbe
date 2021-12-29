@@ -3,7 +3,7 @@ import React from 'react'
 
 import Logo from './pic.jpg'
 import { kebabCase } from 'lodash'
-import SubscribeForm from './SubscribeForm';
+import SubscribeForm from './subscribeForm';
 
 const Sidebar = ({ siteMetadata }) => (
   <>
