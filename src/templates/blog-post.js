@@ -62,7 +62,10 @@ class BlogPostTemplate extends React.Component {
                   </div>
                 </div>
                 <div>
-                <FacebookProvider appId="428695450874995">
+                <FacebookProvider appId="610266770189557">
+                <ShareButton href="https://narbelys.com">
+                  Compartir post
+                </ShareButton>
                   <Comments href={`https://narbelys.com${path}`} />
                 </FacebookProvider>
                   {/*<DiscussionEmbed shortname="https-narbelys-com" config={discussionConfig}>
