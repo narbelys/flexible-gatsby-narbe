@@ -45,7 +45,7 @@ Si siempre te han estigmatizado, se han burlado de ti, dale la vuelta, juega con
 
 Y tu cuentame ¿que te hace diferente?
 
-Comenta abajo :) (recarguen la pagina si no salen los comentarios de facebook)
+Comenta abajo :)
 
 Les dejo algunas personas disléxicas que capaz conocen: 
 

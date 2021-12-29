@@ -31,5 +31,5 @@ En lo particular se que tambien lo estoy haciendo terrible, todavía hago muchas
 
 Y tú, ¿qué tradición cambiaste para un mundo más feliz?
 
-Comenten más abajo (recarguen la pagina si no salen los comentarios de facebook)
+Comenten más abajo
 

@@ -38,4 +38,4 @@ Lo que es un hecho es que a veces los seres humanos podemos ser muy crueles, cru
 
 ¿Y ustedes que tan malos son?
 
-Comenten más abajo (recarguen la pagina si no salen los comentarios de facebook)
+Comenten más abajo

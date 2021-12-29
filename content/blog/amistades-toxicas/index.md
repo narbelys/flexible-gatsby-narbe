@@ -37,4 +37,4 @@ Dicen por ahí “el que vive con miedo a estar solo, muere mal acompañado” s
 
 Y ustedes, ¿ya consiguieron sus medias naranjas?
 
-Comentanos más abajo (recarguen la pagina si no salen los comentarios de facebook)
+Comentanos más abajo

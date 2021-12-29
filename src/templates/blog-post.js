@@ -6,13 +6,14 @@ import { GatsbyImage } from 'gatsby-plugin-image'
 import DefaultLayout from '../components/layout'
 import SEO from '../components/seo'
 import { DiscussionEmbed } from 'disqus-react';
+import { FacebookProvider, Comments, ShareButton} from 'react-facebook';
 
 import 'katex/dist/katex.min.css'
 
 class BlogPostTemplate extends React.Component {
   render() {
     const post = this.props.data.markdownRemark
-    console.log(post)
+    const path = this.props.path
     const discussionConfig = {
       identifier: post.id,
       title: post.frontmatter.title,
@@ -61,7 +62,9 @@ class BlogPostTemplate extends React.Component {
                   </div>
                 </div>
                 <div>
-                <div class="fb-comments" data-href={`https://narbelys.com/${post.id}/`} data-width="800" data-numposts="5"></div>
+                <FacebookProvider appId="428695450874995">
+                  <Comments href={`https://narbelys.com${path}`} />
+                </FacebookProvider>
                   {/*<DiscussionEmbed shortname="https-narbelys-com" config={discussionConfig}>
                   </DiscussionEmbed>*/}
                 </div>

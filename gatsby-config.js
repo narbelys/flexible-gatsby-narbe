@@ -70,12 +70,6 @@ module.exports = {
               version: '5.0', // The version of the graph API to use. Defaults to 5.0
             },
           },*/
-          {
-            resolve: `gatsby-source-facebook`,
-            options: {
-              places: [`${428695450874995}`],
-            }
-          },
           `gatsby-remark-prismjs`,
         ],
       },

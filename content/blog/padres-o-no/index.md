@@ -36,4 +36,4 @@ He visto hombres que no saben hacer nada en su casa porque sus padres los consin
 
 ¿Ustedes quieren o han tenido hijos? ¿Qué tan terrible lo ven?
 
-Comenten más abajo (recarguen la pagina si no salen los comentarios de facebook)
+Comenten más abajo
