@@ -11,6 +11,7 @@ import { FacebookProvider, Comments, ShareButton} from 'react-facebook';
 import 'katex/dist/katex.min.css'
 
 class BlogPostTemplate extends React.Component {
+
   render() {
     const post = this.props.data.markdownRemark
     const path = this.props.path
@@ -63,10 +64,14 @@ class BlogPostTemplate extends React.Component {
                 </div>
                 <div>
                 <FacebookProvider appId="610266770189557">
-                <ShareButton href="https://narbelys.com">
-                  Compartir post
-                </ShareButton>
+                  <div className="container_social">
+                  <ShareButton className="btn_facebook" href={`"https://narbelys.com${path}`} >
+                  <i className="fa fa-facebook-f" aria-hidden="true" /> Compartir
+                  </ShareButton>
+                </div>
+                <div className="container_comment">
                   <Comments href={`https://narbelys.com${path}`} />
+                </div>
                 </FacebookProvider>
                   {/*<DiscussionEmbed shortname="https-narbelys-com" config={discussionConfig}>
                   </DiscussionEmbed>*/}

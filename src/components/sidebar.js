@@ -3,6 +3,7 @@ import React from 'react'
 
 import Logo from './pic.jpg'
 import { kebabCase } from 'lodash'
+import SubscribeForm from './SubscribeForm';
 
 const Sidebar = ({ siteMetadata }) => (
   <>
@@ -15,6 +16,7 @@ const Sidebar = ({ siteMetadata }) => (
             </Link>
           </div>
           <h5>"Haciendome las preguntas que nadie más se hace"</h5>
+          <SubscribeForm />
           {/*<ul className="menu">
             {siteMetadata.categories.map((tag) => (
               <li key={tag}>

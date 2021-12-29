@@ -136,6 +136,117 @@ table tfoot td {
   clear: both;
 }
 
+.btn_facebook{
+  background-color: #385898;
+  border: none;
+  padding: 10px;
+  color: #fff;
+  margin-right: 10%;
+  cursor: pointer;
+}
+
+.btn_facebook:disabled{
+  background-color: grey;
+}
+
+.container_social{
+  text-align: right
+}
+
+
+
+.subscribe-form {
+  align-items: center;
+  background-color: #FFF;
+  border-radius: 5px;
+  box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 40px auto;
+  max-width: 350px;
+  padding: 20px;
+  width: 100%;
+}
+
+.subscribe-form__button {
+  background-color: #d6b0a7;
+  border: 2px solid #d6b0a7;
+  border-radius: 5px;
+  color: #515151;
+  font-weight: 500;
+  height: 40px;
+  outline: none;
+  transition: background-color 0.3s;
+  width: 150px;
+}
+
+.subscribe-form__button:hover {
+  cursor: pointer;
+}
+
+.subscribe-form__button:active {
+  background-color: #d6b0a7;
+  box-shadow: 0 0 2px 1px #d8beb8;
+}
+
+.subscribe-form__title {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.subscribe-form__text {
+  color: #808080;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.subscribe-form__title, .subscribe-form__text {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subscribe-form__content {
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.subscribe-form__input {
+  background-color: #FFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  color: #362F34;
+  font-size: 16px;
+  height: 35px;
+  outline: none;
+  padding: 5px;
+  transition: all 0.5s ease-in-out;
+  width: 100%;
+}
+
+.subscribe-form__input:focus {
+  border: 1px solid transparent;
+  box-shadow: 0 0 2px 1px #d6b0a7;
+}
+
+.subscribe-form__message_success, .subscribe-form__message_failure {
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+.subscribe-form__message_success {
+  color: #007ACC;
+}
+
+.subscribe-form__message_failure {
+  color: #FF474C;
+}
+
 /* - - - - - - - - - - Home Page Styles - - - - - - - - - - */
 @import 'parts/home-page';
 

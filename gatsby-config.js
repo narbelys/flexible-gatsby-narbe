@@ -59,6 +59,12 @@ module.exports = {
               ignoreFileExtensions: [`png`, `jpg`, `jpeg`, `bmp`, `tiff`],
             },
           },
+          {
+            resolve: `gatsby-plugin-mailchimp`,
+            options: {
+              endpoint: `https://narbelys.us20.list-manage.com/subscribe/post?u=5f0276959169c4fc3159dc5f2&amp;id=72377069d8`,
+            },
+          },
           /*{
             resolve: `gatsby-source-facebook`,
             options: {
