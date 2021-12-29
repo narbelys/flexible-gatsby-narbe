@@ -66,7 +66,7 @@ class BlogPostTemplate extends React.Component {
                 <div>
                 <FacebookProvider appId="610266770189557">
                   <div className="container_social">
-                  <ShareButton className="btn_facebook" href={`"https://narbelys.com${path}`} >
+                  <ShareButton className="btn_facebook" href={`https://narbelys.com${path}`} >
                   <i className="fa fa-facebook-f" aria-hidden="true" /> Compartir
                   </ShareButton>
                 </div>
