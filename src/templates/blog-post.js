@@ -69,9 +69,13 @@ class BlogPostTemplate extends React.Component {
                     <div className="title-social">
                     <h5>Compartir: </h5>
                     </div>
-                  <ShareButton className="btn_facebook" href={`https://narbelys.com${path}`} >
+                  {/* <ShareButton className="btn_facebook" href={`https://narbelys.com${path}`} >
                   <i className="fa fa-facebook-f" aria-hidden="true" /> 
-                  </ShareButton>
+                  </ShareButton> */}
+                  <a className="btn_facebook" href={`https://www.facebook.com/sharer/sharer.php?u=https://narbelys.com/${path}`}
+                    target="_blank">
+                      <i className="fa fa-facebook-f" aria-hidden="true" /> 
+                  </a>
                   <a className="linkedin-share-button" href={`https://www.linkedin.com/sharing/share-offsite/?url=https://narbelys.com/${path}`}
                     target="_blank">
                       <i className="fa fa-linkedin" aria-hidden="true" /> 
