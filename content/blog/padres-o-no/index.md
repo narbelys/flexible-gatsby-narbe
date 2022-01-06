@@ -6,7 +6,7 @@ img: ./padres.jpeg
 tags: [Reflexion, Padres] # add tag 
 ---
 
-Se supone que estamos en este mundo para dejar huella, legado, descendencia. Estoy de acuerdo con las 2 primeras para la última es bastante cuestioname. 
+Se supone que estamos en este mundo para dejar huella, legado, descendencia. Estoy de acuerdo con las 2 primeras pero la última es bastante cuestioname. 
 
 No les digo que no quiero ser madre porque la verdad es que ni lo sé (si ya se que algunos dirán que se me va a pasar el tren) pero cuando ves el mundo tan mal, tantos seres humanos pésimamente criados te preguntas ¿De verdad podría hacerlo mejor? 
 
@@ -30,7 +30,7 @@ Y finalmente mi mayor miedo, ¿y si los crias mal?
 
 Tengo 2 perros y me he equivocado millones de veces con ellos, pero son perros, al día siguiente lo arreglas y listo. Pero los humanos no somos así, los humanos guardamos rencores, guardamos traumas y básicamente nuestra infancia define lo que somos cuando adultos. Todavía trabajo con varios problemas de mi infancia, problemas que tuve que no quiero repetir en mis hijos pero y ¿si por no repetirlos cometo otros peores? ¿y si lo hago terrible? ¿Y si termina siendo delincuente o asesino? 
 
-Criar a una persona es una responsabilidad y veo tantas personas en el mundo que lo toman tan a la ligera, convencidos que están haciendo lo correcto, seguros que esta bien golpearlos para que sean personas de bien, o que esta bien que no estudien los que ellos quieren porque tienen que ser abogados o ingenieros, o que no esta bien dejarlo jugar con juguetes del otro sexo porque se van a “cambiar de vando”. Crianzas que en lo particular me parecen una aberración, pero ahí están ellos, convencidos que es la mejor manera de criarlos
+Criar a una persona es una responsabilidad y veo tantas personas en el mundo que lo toman tan a la ligera, convencidos que están haciendo lo correcto, seguros que esta bien golpearlos para que sean personas de bien, o que esta bien que no estudien los que ellos quieren porque tienen que ser abogados o ingenieros, o que no esta bien dejarlo jugar con juguetes del otro sexo porque se van a “cambiar de bando”. Crianzas que en lo particular me parecen una aberración, pero ahí están ellos, convencidos que es la mejor manera de criarlos
 
 He visto hombres que no saben hacer nada en su casa porque sus padres los consintieron demasiado, gente caprichosa por lo mismo, o personas muy rebeldes por padres demasiado estrictos. ¿Como se supone que lo haga mejor que ellos? como se supone que crie personas de bien que el día de mañana me digan “gracias mamá, no sería la gran persona que soy hoy si no fuera por ti”, como se supone que se haga si cuando cometes un error puede que no lo notes sino cuando tenga 18, cuando ya no se pueda arreglar. 
 
