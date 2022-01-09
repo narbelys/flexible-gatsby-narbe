@@ -17,6 +17,14 @@ const Sidebar = ({ siteMetadata }) => (
           </div>
           <h5>"Haciendome las preguntas que nadie más se hace"</h5>
           <SubscribeForm />
+          <div className="box-contribution">
+          <a
+            className="button"
+            href="/contribucion"
+          >
+            Contribuir
+        </a>
+        </div>
           {/*<ul className="menu">
             {siteMetadata.categories.map((tag) => (
               <li key={tag}>

@@ -178,6 +178,32 @@ table tfoot td {
 }
 
 
+.button {
+  background-color: #d6b0a7;
+  border: 2px solid #d6b0a7;
+  border-radius: 5px;
+  color: #515151;
+  font-weight: 500;
+  outline: none;
+  transition: background-color 0.3s;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  background-color: #d6b0a7;
+  box-shadow: 0 0 2px 1px #d8beb8;
+}
+
+.box-contribution{
+  margin-bottom: 20px;
+}
+
+
 
 .subscribe-form {
   align-items: center;
