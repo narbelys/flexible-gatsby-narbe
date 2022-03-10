@@ -15,7 +15,7 @@ const Sidebar = ({ siteMetadata }) => (
               <img src={Logo} alt={siteMetadata.author} />
             </Link>
           </div>
-          <h5>"Haciendome las preguntas que nadie más se hace"</h5>
+          <h5>"Pensemos fuera de la caja"</h5>
           <SubscribeForm />
           <div className="box-contribution">
           <a
